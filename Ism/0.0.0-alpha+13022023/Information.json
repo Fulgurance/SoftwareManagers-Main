@@ -6,7 +6,7 @@
   "description": "Ingenius System Manager is an extremely advanced tool to build and manage a Linux system from scratch",
   "website": "https://github.com/Fulgurance/ISM",
   "downloadLinks": ["https://github.com/Fulgurance/ISM/archive/refs/tags/Alpha-13022023.tar.gz"],
-  "md5sums": [""],
+  "md5sums": ["e8e6f412f0795a2752e4b5d279b45adf"],
   "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
