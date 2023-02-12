@@ -1,5 +1,5 @@
 {
-  "port": "SoftwareManager-Main",
+  "port": "SoftwareManagers-Main",
   "name": "Ism",
   "version": "0.0.0-alpha+13022023",
   "architectures": ["x86_64"],
