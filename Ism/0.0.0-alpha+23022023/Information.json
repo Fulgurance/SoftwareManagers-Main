@@ -1,0 +1,30 @@
+{
+  "port": "SoftwareManagers-Main",
+  "name": "Ism",
+  "version": "0.0.0-alpha+23022023",
+  "architectures": ["x86_64"],
+  "description": "Ingenius System Manager is an extremely advanced tool to build and manage a Linux system from scratch",
+  "website": "https://github.com/Fulgurance/ISM",
+  "downloadLinks": ["https://github.com/Fulgurance/ISM/archive/refs/tags/Alpha-23022023.tar.gz"],
+  "md5sums": ["e8e6f412f0795a2752e4b5d279b45adf"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Crystal",
+      "version": ">=1.7.2",
+      "options": []
+    },
+    {
+      "name": "Git",
+      "version": ">=2.33.0",
+      "options": []
+    },
+    {
+      "name": "Wget",
+      "version": ">=1.21.1",
+      "options": []
+    }
+  ],
+  "options": []
+}
