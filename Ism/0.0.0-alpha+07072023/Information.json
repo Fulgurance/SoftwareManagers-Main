@@ -16,11 +16,6 @@
       "name": "Git",
       "version": ">=2.33.0",
       "options": []
-    },
-    {
-      "name": "Wget",
-      "version": ">=1.21.1",
-      "options": []
     }
   ],
   "options": []
