@@ -2,7 +2,9 @@
   "port": "SoftwareManagers-Main",
   "name": "Ism",
   "version": "0.0.0-alpha+13022023",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Ingenius System Manager is an extremely advanced tool to build and manage a Linux system from scratch",
   "website": "https://github.com/Fulgurance/ISM",
   "installedFiles": [],
