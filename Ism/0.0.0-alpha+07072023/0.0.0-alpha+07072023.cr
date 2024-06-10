@@ -9,10 +9,10 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeDirectory("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/bin")
-        makeDirectory("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share")
-        moveFile("#{buildDirectoryPath(false)}ism","#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/bin/ism")
-        copyDirectory("#{workDirectoryPath(false)}/Sources","#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share/ism")
+        makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/bin")
+        makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share")
+        moveFile("#{buildDirectoryPath}ism","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/bin/ism")
+        copyDirectory("#{workDirectoryPath}/Sources","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/ism")
     end
 
 end

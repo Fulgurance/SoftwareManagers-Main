@@ -2,7 +2,7 @@ class Target < ISM::Software
 
     def extract
         super
-        moveFile("#{workDirectoryPath(false)}/ISM-Alpha-14032023","#{workDirectoryPath(false)}/Alpha-14032023")
+        moveFile("#{workDirectoryPath}/ISM-Alpha-14032023","#{workDirectoryPath}/Alpha-14032023")
     end
 
     def build
@@ -12,10 +12,10 @@ class Target < ISM::Software
     
     def prepareInstallation
         super
-        makeDirectory("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/bin")
-        makeDirectory("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share")
-        moveFile("#{buildDirectoryPath(false)}ism","#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/bin/ism")
-        copyDirectory("#{workDirectoryPath(false)}/Alpha-14032023","#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share/ism")
+        makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/bin")
+        makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share")
+        moveFile("#{buildDirectoryPath}ism","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/bin/ism")
+        copyDirectory("#{workDirectoryPath}/Alpha-14032023","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/ism")
     end
 
 end
